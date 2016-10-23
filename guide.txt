@@ -1,0 +1,303 @@
+ ________   ________  ________  ________          ________  ___  ___  ___  ________  _______            _______      ________     
+|\   ___  \|\   __  \|\   __  \|\   __  \        |\   ____\|\  \|\  \|\  \|\   ___ \|\  ___ \          /  ___  \    |\   __  \    
+\ \  \\ \  \ \  \|\  \ \  \|\  \ \  \|\ /_       \ \  \___|\ \  \\\  \ \  \ \  \_|\ \ \   __/|        /__/|_/  /|   \ \  \|\  \   
+ \ \  \\ \  \ \  \\\  \ \  \\\  \ \   __  \       \ \  \  __\ \  \\\  \ \  \ \  \ \\ \ \  \_|/__      |__|//  / /    \ \  \\\  \  
+  \ \  \\ \  \ \  \\\  \ \  \\\  \ \  \|\  \       \ \  \|\  \ \  \\\  \ \  \ \  \_\\ \ \  \_|\ \         /  /_/__  __\ \  \\\  \ 
+   \ \__\\ \__\ \_______\ \_______\ \_______\       \ \_______\ \_______\ \__\ \_______\ \_______\       |\________\\__\ \_______\
+    \|__| \|__|\|_______|\|_______|\|_______|        \|_______|\|_______|\|__|\|_______|\|_______|        \|_______\|__|\|_______|
+                                                                                                                                                                                                     
+
+Greetings fellow anons, since the old noob guide was taken down, I thought
+I would reupload an edited version some changes and more tools.
+
+Things to note:
+1. When Dosing, do it in numbers, because doing it solo is easy to track.
+2. Also when Dosing, DON'T use a FREE VPN (trust me just don't)
+3. Know some HTML or python so if you need to edit any of those kind of files, you can
+
+===========
+OS picking
+===========
+For hacking, it is recommended that you use Open Source software like Linux distributions, most of them have root (admin) privileges so you can access all of the tools necessary
+to perform a successful hack.
+
+FOR LINUX NOOBS:
+Linux mint: Good OS to start on (however recently the Mint ISO's have been hacked so wait until they get the problem fixed
+to use this OS), tools and resources can be added easily, and has a great looking desktop.
+
+Ubuntu: The most popular Linux distro. It is more for learning Linux than just looking good (which is what Mint is based on)
+
+Kali: By far the best distro for hacking too;s. Kali has a wide variety of tools installed already. This is made by the same people that created backtrack Linux 
+(which is no longer supported by the company). However, use proxys, VPN's and whatever other security precautions you feel like you have to take, because Kali is known to not 
+have the best security.
+
+---------------------------------------------------------------------------------------------------------------------
+
+OSX: I know, I know "Fuck Macs, they suck" but OSX is UNIX based, to tools can be added with brew and ruby, but the OS is NOT open source, but if you don't want to use Linux,
+then OSX is decent
+
+For all of these (except maybe OSX) I strongly you use a Virtual Machine (VM) with any of the OS's you will be using. 
+They protect your host computer and your identity. They two most used VM softwares are VirtualBox and VMWare.
+
+DO NOT USE WINDOWS TO HACK ANYTHING. MICROSOFT CAN TRACK YOU AND MONITOR YOUR EVERY MOVE AND THEIR FIREWALL IS ANNOYING SO YOU WILL 
+NOT BE ABLE TO DO MOST HACKS OR GET A LOT OF TOOLS ANYWAY
+
+=============================
+UNIX terminal commands you must know
+=============================
+1. ifconfig - tells you your network interface IP address and much more about the network you are connected to. (ipconfig on Windows)
+
+2. cd <destination> - changes the working directory to a child directory (use "cd .." (without quotes) to go to the parent directory)(works with Windows CMD)
+
+3. ping - easy way to test internet connectivity and to get the ip of a webserver/website (works with Windows CMD)
+==========
+Anonymity
+==========
+There is always a fear of being monitored 24/7 by the feds, who sit behind monitors and monitor everything you do.
+Unfortunately, you will never be 100% anonymous when browsing the web but there are several steps you can take to become as anonymous as possible.
+1. TOR - Tor can be found at https://www.torproject.org/
+it allows you to connect through several nodes across the globe before reaching the server, making sure that all of your browsing data stays private.
+
+2. VPN - stands for Virtual Private Network, this connects you to a server before you reach anything online, it is the safes and most anonymous option,
+try to use a paid VPN if you can, but if you can't, use a free one but make sure you trust the VPN provider.
+	Some good VPN providers:
+				- Betternet (Free)
+				- TunnelBear (Free and paid)
+				- TouchVPN (Free for mobile)
+				- 
+
+3. Proxy - Another option if you don't want to use a VPN, however it is often slow and unreliable for torrenting or large file sharing. 
+Proxy websites can be found anywhere, but preferably use proxy servers that need configuration of browser settings, so there will be less HTML and Javascript problems.
+
+4. Have a brain - Don't give away any personal information to someone you don't know, even to an OP. You will later learn
+   how much damage someone can do with just an email address.
+
+===============
+Communication
+===============
+Good communication is necessary in order to start OP's U suggest using these methods:
+1. IRC - Internet Relay Chat, very good, fairly anonymous chat system that takes a bit of getting used to
+
+2. Start a thread on a message board site - EXAMPLE SITES: 4chan.org, anonboards.com
+
+3. Talk in person - no explanation needed
+
+===============================================
+DoS or DDoS TOOLS (don't use unless instructed)
+===============================================
+Disclaimer:
+DO NOT USE LOIC, HOIC OR XOIX WHEN SOLO DOSING OR DOSING IN SMALL NUMBERS BECAUSE THEY CAN BE TRACKED BACK TO YOU.
+EVEN IF ANOTHER ANON OR OP TELLS YOU TO USE IT, DON'T!
+====================================================================================================================
+1. Torshammer:
+   utilizes Tor nodes, very strong DoS tool. But you need python installed for it to work. 
+
+2. Slowloris: A great tool to start out with. 
+- IPv4 version: http://ha.ckers.org/slowloris/slowloris.pl
+- IPv6 version: http://ha.ckers.org/slowloris/slowloris6.pl
+To download, copy the text to a file and save it is slowloris.pl and/or slowloris6.pl
+You will need Perl to run this. Tutorials of how to get Perl can be found online.
+
+3. Ufonet: found at https://www.github.com/epsylon/ufonet
+This is a very powerful tool that builds you a botnet with websites that have "Open redirect" vulnerabilities
+You can get a very large hoard of 'zombies' if you are good at this. (I got 1500 in 2 days)
+Also has a nice GUI as well as the CLI version
+
+4. MDK3: Comes preinstalled on Kali, it allowed you to deauthenticate and wi-fi in range, essentially overloading the router with empty packets, shutting it down.
+
+===========
+Botnets
+===========
+Botnets are basically a group of infected computers all using their computing power at once to accomplish a certain task.
+Botnets are very useful for DDoSing because you can not get tracked as easily.
+some useful botnet tools are:
+
+1. UFOnet - a DDoS tool via web-abuse. It creates your botnet with websites using open redirects. Comes preinstalled in Kali Linux.
+
+2. ZeUs - a rather old software that is rather hard to get your hands on these days. However if you do, it will be useful.
+
+===========================
+Information gathering tools
+===========================
+The first thing you should do when hacking someone/something is to collect information on their database/computer/webserver
+-----------------------------------------------------------------------------------------------------------------
+1. nmap: a great reliable network scan tool
+>>> https://www.nmap.org/
+
+2. Sparta: A great tool to see what ports are open on a server, what scripts a website is using, and the IPv4 & IPv6 addresses respectively
+
+3. recon-ng: a tool that uses recon, reporting, import, exploitation and discovery modules to gather info on a site/server
+
+4. OWASP ZAP - thorough gui tool to find exploits in web applications
+
+5. Vega - essentially the same as OWASP but a bit simpler
+
+6. Maltego - Built for Kali Linux, you can find almost everything about a website including finding all emails with that domain and a lot more.
+   Shannon Morse (@snubs) from hak5 explains this tool very well in her video series at https://www.youtube.com/user/Hak5Darren
+
+In my opinion, you can find the most information in Maltego
+
+=================
+Disposable email
+=================
+Disposable email is a very useful tool. You can make up any email address you want and check it. It is good for collecting spam or spamming.
+
+1. Mailinator.com - probably the only disposable email you will ever need
+
+=======================
+Password cracking tools 
+=======================
+
+1. airmon-ng, airodump-ng and aircrack-ng: all work in conjunction to crack WPA/WPA2 passwords.
+
+2. John the ripper/Johnny: Comes preinstalled on Kali, works very well. Johnny is the GUI version if you don't want to use the terminal version 
+
+3. Hashcat: A tool that uses your GPU instead of your CPU to crack passwords/hashes. Very strong.
+
+4. Hydra and xHydra: bruteforce tool that uses dictionaries to try to crack the password. (A great wordlist is the darkc0de wordlist)
+xHydra is the GUI version of Hydra and in my opinion is easier to use. Hydra was uses by AnonSec to hack NASA's passwords during the NASA hack.
+
+5. ophcrack: 
+info >>> http:/blog.codinghorror.com/rainbow-hash-cracking
+download >>> http://ophcrack.com/download.html
+	- comes preinstalled on Kali
+6. rainbowcrack: an alternative to ophcrack, also comes preinstalled on Kali 
+
+7. Sparta: as well as info gathering, you can also bruteforce passwords with sparta
+
+8. Mimikatz (Windows and metasploit) - this very useful tool will attempt to grab passwords in plain text from a Windows machine
+   This can me used with the windows meterpreter
+
+==============================
+Man in the middle (MITM) tools
+==============================
+1. Wireshark: Available on all OS's, but again, comes preinstalled on Kali. Sniffs all packets going through the air. Very reliable tool if you know a thing or two about internet protocols.
+
+2. Ettercap: Comes preinstalled on Kali, but available on mac through brew. Single target or multi target sniffing tool, has multiple plugins including dns spoofing. Has DoS capabilities.
+
+==================
+Exploitation tools
+==================
+1. Social Engineering Toolkit (SET): This tool has many other tools within it, however it is a social engineering tool,
+   so you will need trick the people you are attacking into clicking a link, scanning a malicious QR code etc.
+
+2. Metasploit: Comes with Kali, available on Mac using brew. Metasploit is a console with a whole other syntax and list of commands that is too long to go into right now. 
+Metasploit tutorial >>> https://www.offensive-security.com/metasploit-unleashed/
+Developer website >>> https://www.metasploit.com
+
+3. Armitage: A GUI tool that lets you into computers on your network using exploits from metasploit. Has a few bugs and is a bit laggy, but it gets the job done.
+With this tool, you can take screenshots, look in the computers files etc. (pretty much anything you can do in metasploit you can do in armitage)
+
+4. sqlmap: Used to get into databases via sql injection. Can dump data from a database to a directory on your computer.
+
+5. SSLStrip: Another social engineering attack tool. This essentially changes an https link to an http link and sends usernames, passwords etc to you.
+Ex. https://www.facebook.com will be changed to http://facebook.com
+Again, this is a social engineering attack, so the victim will have to click on the link in order for the attack to work
+
+=======================
+Post exploitation tools
+=======================
+1. Armitage: As well as exploiting, armitage has the same post exploitation tools as metasploit
+
+2. backdoor-factory: uses python to create a backdoor for a website or database
+
+3. Metasploit: You can use 'Post' modules to run additional scripts on already exploited systems
+
+++++++++++++++++++++++++++++
+TCP/IP ports you should know
+++++++++++++++++++++++++++++
+80 = http
+8080 = https with proxy
+443 = https
+22 = ssh
+4444 = metasploit/trojans
+
++++++++++++++++++++++
+Other useful websites
++++++++++++++++++++++
+builtwith.com - see what a website is built on
+
+anonboards.com - get up to date info on OP's and anon forums
+
+4chan.org/b/ - the birthplace of anonymous
+
+++++++++++++++++++++++++++++++++++++
+Common acronyms that you should know
+++++++++++++++++++++++++++++++++++++
+IP = internet protocol
+SMB = server message board
+RPC = remote procedure call
+CLI = command line interface
+OS = operating system
+DNS = domain name server
+FTP = file transfer protocol
+SMTP = simple mail transfer protocol
+HTTP = Hyper text transfer protocol
+HTTPS = Hyper text transfer protocol over SSL
+HTML = Hyper text markup language
+
+
+Conclusion:
+Remember that hacking is a broad term and can mean many different things. If you get in trouble using any of these tools, it is neither mine nor the software creator's responsibility.
+When hacking, try to get other people on board; you should do this through IRC chat. Use these and other tools responsibly and remember so stay anonymous. 
+Happy hunting!
+
+
+Your's truly, 
+	Warden
+
+
+We are Anonymous.
+We are legion.
+We do not forgive.
+We do not forget.
+Expect us.
+
+Remember, remember the 5th of November
+
+88888888888888888888888888888888888888888888888888888888888P"""""""""""""""88888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888P""°```````````````````````````'"""88888888888888888888888888888888888888888888888
+888888888888888888888888888888888888888888P"`````````````````````````````````````````````"78888888888888888888888888888888888888888
+8888888888888888888888888888888888888888P°``````````````````````````````````````````````````788888888888888888888888888888888888888
+888888888888888888888888888888888888888``````````````````````````````````````````````````````'8888888888888888888888888888888888888
+88888888888888888888888888888888888888[```````````````````````````````````````````````````````'888888888888888888888888888888888888
+8888888888888888888888888888888888888P``````````````````````````````````````````````````````````88888888888888888888888888888888888
+8888888888888888888888888888888888888°``````````````````````````````````````````````````````````78888888888888888888888888888888888
+8888888888888888888888888888888888888`````````________`````````````````````````________,````````]8888888888888888888888888888888888
+888888888888888888888888888888888888°`````.J888888888888__`````````````````.J888888888888L,`````]8888888888888888888888888888888888
+88888888888888888888888888888888888P````_/°````8888_J"788888_```````````J888888"LJ888P````'"L````8888888888888888888888888888888888
+88888888888888888888888888888888888[```'```````````"88L,788888,````````J8888P__8P"``````````'````8888888888888888888888888888888888
+88888888888888888888888888888888888[``````````````````'88LJ788°````````78"\J8P"``````````````````7888888888888888888888888888888888
+88888888888888888888888888888888888°````````````````````788L````````````.J88°````````````````````]888888888888888888888888888888888
+88888888888888888888888888888888888```````````````````````'888,````````]8"```````````````````````]888888888888888888888888888888888
+88888888888888888888888888888888888````````__88888888L_````]888````````'`````._J88888888L,```````]888888888888888888888888888888888
+88888888888888888888888888888888888``````J8888888888888888,'888[``````````.J888888888888888L,````]888888888888888888888888888888888
+88888888888888888888888888888888888````8888888888888888888°`888[```````````8888888888888888P""8888888888888888888888888888888888888
+88888888888888888888888888888888888```]"""°````````````````]888[`````````````````````````````````]888888888888888888888888888888888
+88888888888888888888888888888888888````````````````````````]888[`````````````````````````````````]888888888888888888888888888888888
+88888888888888888888888888888888888L```````````````````````]888[`````````````````````````````````]888888888888888888888888888888888
+8888888888888888888888888888888888888,`````````````````````8888[`````````````````````````````````J888888888888888888888888888888888
+88888888888888888888888888888888888888,```````````````````.8888[````````````````````````````````]8888888888888888888888888888888888
+88888888888888888888888888888888888L`'8,`````````````````.88888[``````````````````````````````]888888888888888888888888888888888888
+8888888888888888888888888888888888888`'888__________J`.88888888`````````'"",```````````````_JP`]88888888888888888888888888888888888
+8888888888888888888888888888888888888L`788]88[````````]888`]888````````````]`````'""888888"88`]888888888888888888888888888888888888
+88888888888888888888888888888888888888[`"8,'88L````````7[``]88P``````````````````````.88P`]8[`J888888888888888888888888888888888888
+888888888888888888888888888888888888888```8,'888,``````````'88[`````````````````````]88P`]8[`]8888888888888888888888888888888888888
+8888888888888888888888888888888888888888,`'7_,88888_,```````888,````.J8[`````````._888°`.8°`.88888888888888888888888888888888888888
+88888888888888888888888888888888888888888[``78,]8888888888888888888888888,```_8888888``J8°``888888888888888888888888888888888888888
+888888888888888888888888888888888888888888[```8L,`'788888888888P°``"88888888888888"°.J88``.8888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888[```888[````'788888P``````788888888"``````J°``]88888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888L,``7888_``````````'""""""``````````````8°``J888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888,``'888878``````````````````````````.8```J8888888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888888,``'888````'""`_______,```````````J"``]888888888888888888888888888888888888888888888
+888888888888888888888888888888888888888888888888[``'8L`````````888888[``````````8```J8888888888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888888888,`]8,````````]8888[``````````P```J88888888888888888888888888888888888888888888888
+888888888888888888888888888888888888888888888888888,``°````````88888L````````````J8888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888L_````````8888P88[``````````J88888888888888888888888888888888888888888888888888
+888888888888888888888888888888888888888888888888888888L```````8888888[`````````8888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888L``````'888888°```````J88888888888888888888888888888888888888888888888888888
+888888888888888888888888888888888888888888888888888888888L`````88888[``````]8888888888888888888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888888888888888888_```]8888[```_J888888888888888888888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
